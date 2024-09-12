@@ -1,0 +1,20 @@
+#as-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // Esto asegura que el contenedor ocupe toda la altura de la pantalla
+  padding: 0 20px; // Espaciado lateral para dispositivos móviles
+  box-sizing: border-box;
+
+  mat-form-field {
+    width: 100%; // Ocupará todo el ancho disponible
+    max-width: 400px; // Máximo ancho del campo
+    margin-bottom: 16px; // Espaciado entre los campos
+  }
+
+  button {
+    width: 100%; // Botón ocupando todo el ancho disponible
+    max-width: 400px; // Máximo ancho del botón
+  }
+}
